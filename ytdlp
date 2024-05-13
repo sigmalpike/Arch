@@ -1,0 +1,7 @@
+sudo apt build-dep yt-dlp
+sudo apt install yt-dlp
+sudo yt-dlp -U
+yt-dlp --list-formats https://www.youtube.com/watch?v=t5b20oLaIaw
+yt-dlp -f 247 https://www.youtube.com/watch?v=t5b20oLaIaw
+yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' --playlist-items 12-140 https://www.youtube.com/playlist?list=PL_mGxmgVfH1MkeDHu3RK_FobKK2owtZcC 
+yt-dlp -x mp3 (playlist)

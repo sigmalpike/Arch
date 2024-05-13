@@ -1,0 +1,24 @@
+##iNSTALL
+pacman -S grub os-prober
+grub-install /dev/sdx 
+os-prober
+grub-mkconfig -o /boot/grub/grub.cfg
+nano /etc/default/grub
+reboot
+
+useradd sigmalpike
+passwd sigmalpike 
+nano /etc/sudoers 
+        sigmalpike ALL
+
+exec cinnamon-session
+sudo pacman -Syyu 
+sudo pacman -S --asdeps wget cinnamon git firefox blackbox xorg xorg-server xorg-init xorg-apps lightdn NetworkManager iw wpa-supplicant konsole pciutils nano cmake github-desktop pacman-contrib gnome-keyring feh audacious zathura vlc yt-dlp metasploit imagemagick ruby postgresql
+
+install package ARCH
+git clone https://aur.archlinux.org/microsoft-edge-stable-bin.git
+cd m  
+makepkg -si
+
+startx
+cinnamon-session

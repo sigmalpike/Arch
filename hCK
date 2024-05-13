@@ -1,0 +1,5 @@
+sudo pacman -S bettercap ettercap dnsmasq bully pixiewps  hashcat hostapd tcpdump  mdk4
+iwconfig
+sudo airmon-ng {interface} 
+
+6C:C6:3B:83:14:E9  -67       11        2    0  11  130   WPA2 CCMP   PSK  Diqueeresmiperra  
